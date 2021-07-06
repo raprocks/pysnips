@@ -3,6 +3,7 @@
   "displayName": "PySnips",
   "description": "Modern Python Snippets that utilize features from Python3.8.5+",
   "version": "0.0.1",
+  "publisher": "raprocks",
   "engines": {
     "vscode": "^1.54.0"
   },
