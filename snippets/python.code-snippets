@@ -23,10 +23,10 @@
     "prefix": ["el", "elif"],
     "scope": "python"
   },
-  "info": {
-    "description": "'description'",
-    "body": ["description"],
-    "prefix": ["prefix"],
+  "for Loop": {
+    "description": "for loop with custom Iterable",
+    "body": ["for ${1:i} in ${2:iterable}:", "\t${0:for_block}"],
+    "prefix": ["for"],
     "scope": "python"
   }
 }

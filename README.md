@@ -15,6 +15,7 @@ A Visual Studio Code Extension that provides modern Python3 Snippets that are ea
 | if     | if statement   |
 | elif   | elif statement |
 | else   | else statement |
+| for    | for loop       |
 
 </center>
 
