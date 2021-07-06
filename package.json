@@ -4,6 +4,10 @@
   "description": "Modern Python Snippets that utilize features from Python3.8.5+",
   "version": "0.1.0",
   "publisher": "raprocks",
+  "repository": {
+    "type": "GitHub",
+    "url": "https://github.com/raprocks/pysnips"
+  },
   "engines": {
     "vscode": "^1.54.0"
   },
