@@ -6,35 +6,32 @@ A Visual Studio Code Extension that provides modern Python3 Snippets that are ea
 
 ##### TODO ADD Animation of Inserting Snippet
 
-## Release Notes
+### Snippets Included
 
-Users appreciate release notes as you update your extension.
+<center>
 
-### 1.0.0
+| Prefix | Description    |
+| ------ | -------------- |
+| if     | if statement   |
+| elif   | elif statement |
+| else   | else statement |
 
-Initial release of ...
+</center>
 
-### 1.0.1
+## Contributing
 
-Fixed issue #.
+Add Snippets that are generally used by others in the [`snippets/python.code-snippets`](/snippets/python.code-snippets)
 
-### 1.1.0
+if you are editing the file in VS Code, you have access to the `snip` snippet which automatically populates the document with a skeleton for snippet. Use that!
 
-Added features X, Y, and Z.
+commit messages should be strictly of the following format
 
----
+```
+[ADD|UPDATE|FIX|PATCH] commit title
 
-## Working with Markdown
+Extended Description if any, not compulsory.
+```
 
-**Note:** You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+keep the titles imperative and as short as possible.
 
-- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-- Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-- Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+##### Star the Repo, Share the Plugin Around, Send in a PR with your snippets, Raise issues if you get any!
