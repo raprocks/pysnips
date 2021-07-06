@@ -2,7 +2,7 @@
   "name": "pysnips",
   "displayName": "PySnips",
   "description": "Modern Python Snippets that utilize features from Python3.8.5+",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "raprocks",
   "repository": {
     "type": "GitHub",
