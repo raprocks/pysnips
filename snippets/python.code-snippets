@@ -1,0 +1,32 @@
+{
+  "The if Statement": {
+    "description": "Snippet for the if statement",
+    "body": ["if ${1:condition}:", "\t$0"],
+    "prefix": ["if", "ifc"],
+    "scope": "python"
+  },
+  "The if else Statement": {
+    "description": "Snippet for the if else statement",
+    "body": [
+      "if ${1:condition}:",
+      "\t${2:if_block}",
+      "else:",
+      "\t${3:else_block}",
+      "$0"
+    ],
+    "prefix": ["ife", "ifec"],
+    "scope": "python"
+  },
+  "The elif statement": {
+    "description": "Snippet for the elif statement",
+    "body": ["elif ${1:condition}:", "\t${2:elif_block}"],
+    "prefix": ["el", "elif"],
+    "scope": "python"
+  },
+  "info": {
+    "description": "'description'",
+    "body": ["description"],
+    "prefix": ["prefix"],
+    "scope": "python"
+  }
+}

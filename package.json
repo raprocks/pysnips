@@ -1,0 +1,20 @@
+{
+  "name": "pysnips",
+  "displayName": "PySnips",
+  "description": "Modern Python Snippets that utilize features from Python3.8.5+",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "python",
+        "path": "./snippets/python.code-snippets"
+      }
+    ]
+  }
+}

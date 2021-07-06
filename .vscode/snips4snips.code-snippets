@@ -1,0 +1,14 @@
+{
+  "Insert a Snippet body": {
+    "description": "Insert a skelton for new snippet",
+    "body": [
+      "\"${1:info}\": {",
+      "\t\"description\": \"${2:\"description\"}\",",
+      "\t\"body\": [${2:\"body\"}],",
+      "\t\"prefix\": [${3:\"prefix\"}],",
+      "\t\"scope\": \"python\"",
+      "}"
+    ],
+    "prefix": ["snip"]
+  }
+}
