@@ -10,12 +10,12 @@ A Visual Studio Code Extension that provides modern Python3 Snippets that are ea
 
 <center>
 
-| Prefix         | Description         |
-| -------------- | ------------------- |
-| if             | if statement        |
-| elif           | elif statement      |
-| else           | else statement      |
-| for            | for loop            |
+|     Prefix     |     Description     |
+| :------------: | :-----------------: |
+|       if       |    if statement     |
+|      elif      |   elif statement    |
+|      else      |   else statement    |
+|      for       |      for loop       |
 | forr, forrange | for loop with range |
 
 </center>
