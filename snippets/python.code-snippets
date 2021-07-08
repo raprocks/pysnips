@@ -28,5 +28,11 @@
     "body": ["for ${1:i} in ${2:iterable}:", "\t${0:for_block}"],
     "prefix": ["for"],
     "scope": "python"
+  },
+  "for Loop with range": {
+    "description": "A For loop that iterates over value from the range function",
+    "body": ["for ${1:var} in range(${2:end}):", "\t${3:code_block}", "${0}"],
+    "prefix": ["forr", "forrange"],
+    "scope": "python"
   }
 }
