@@ -40,5 +40,17 @@
     "body": ["while ${1:conditional}:", "\t${2:code_block}", "${0}"],
     "prefix": ["while"],
     "scope": "python"
+  },
+  "while Loop with a Counter variable": {
+    "description": "A while loop with a counter variable",
+    "body": [
+      "${1:var} = 0",
+      "while ${1:var}${2}:",
+      "\t${3:code_block}",
+      "\t${4:counter_change}",
+      "${0}"
+    ],
+    "prefix": ["whilec", "whilecounter"],
+    "scope": "python"
   }
 }
