@@ -34,5 +34,11 @@
     "body": ["for ${1:var} in range(${2:end}):", "\t${3:code_block}", "${0}"],
     "prefix": ["forr", "forrange"],
     "scope": "python"
+  },
+  "while Loop": {
+    "description": "A while loop with custom condition",
+    "body": ["while ${1:conditional}:", "\t${2:code_block}", "${0}"],
+    "prefix": ["while"],
+    "scope": "python"
   }
 }

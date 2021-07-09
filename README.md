@@ -17,6 +17,7 @@ A Visual Studio Code Extension that provides modern Python3 Snippets that are ea
 |      else      |   else statement    |
 |      for       |      for loop       |
 | forr, forrange | for loop with range |
+|     while      |     while loop      |
 
 </center>
 
