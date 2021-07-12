@@ -19,6 +19,7 @@ A Visual Studio Code Extension that provides modern Python3 Snippets that are ea
 |    forr, forrange    |   for loop with range   |
 |        while         |       while loop        |
 | whilec, whilecounter | while loop with counter |
+|        print         |     print function      |
 
 </center>
 

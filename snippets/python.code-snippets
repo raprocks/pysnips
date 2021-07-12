@@ -52,5 +52,11 @@
     ],
     "prefix": ["whilec", "whilecounter"],
     "scope": "python"
+  },
+  "print": {
+    "description": "default print function",
+    "body": ["print(${1:to_print})", "$0"],
+    "prefix": ["print"],
+    "scope": "python"
   }
 }
