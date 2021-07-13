@@ -64,5 +64,11 @@
     "body": ["f\"${1}\"${0}"],
     "prefix": ["fstr", "fstring"],
     "scope": "python"
+  },
+  "evaluate object using f-strings": {
+    "description": "create a string with evaluation of the object using f-string",
+    "body": ["f\"{${1}=}\"${0}"],
+    "prefix": ["evalfstr"],
+    "scope": "python"
   }
 }
