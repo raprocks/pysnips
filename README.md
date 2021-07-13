@@ -20,6 +20,7 @@ A Visual Studio Code Extension that provides modern Python3 Snippets that are ea
 |        while         |       while loop        |
 | whilec, whilecounter | while loop with counter |
 |        print         |     print function      |
+|         fstr         |         fstring         |
 
 </center>
 

@@ -58,5 +58,11 @@
     "body": ["print(${1:to_print})", "$0"],
     "prefix": ["print"],
     "scope": "python"
+  },
+  "f-string": {
+    "description": "f-string",
+    "body": ["f\"${1}\"${0}"],
+    "prefix": ["fstr", "fstring"],
+    "scope": "python"
   }
 }
