@@ -22,6 +22,7 @@ A Visual Studio Code Extension that provides modern Python3 Snippets that are ea
 |        print         |        print function         |
 |         fstr         |            fstring            |
 |       evalfstr       | evaluate object using fstring |
+|     def,function     |      function definition      |
 
 </center>
 

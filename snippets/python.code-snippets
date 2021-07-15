@@ -70,5 +70,15 @@
     "body": ["f\"{${1}=}\"${0}"],
     "prefix": ["evalfstr"],
     "scope": "python"
+  },
+  "function": {
+    "description": "creates a function skeleton",
+    "body": [
+      "def ${1:function_name}(${2:function_arguments}):",
+      "\t${3:function_body}",
+      "$0"
+    ],
+    "prefix": ["def", "function"],
+    "scope": "python"
   }
 }
