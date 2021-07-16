@@ -80,5 +80,16 @@
     ],
     "prefix": ["def", "function"],
     "scope": "python"
+  },
+  "class": {
+    "description": "creates a class skeleton with init",
+    "body": [
+      "class ${1:Class_name}:",
+      "\tdef __init__(self, ${2:constructor_args}):",
+      "\t\t${3:init_body}",
+      "\t${0}"
+    ],
+    "prefix": ["class"],
+    "scope": "python"
   }
 }
